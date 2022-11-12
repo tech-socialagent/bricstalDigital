@@ -1,0 +1,38 @@
+.cards{
+    display: flex;
+}
+.card{
+    width: 300px;
+    border-bottom: 32px solid red;
+    padding: 40px 40px 0;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 20px 20px 30px;
+}
+.card:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: rgba(255, 0, 0, 0.451);
+    color: white;
+    cursor: pointer;
+}
+.Ctitle{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.CiconRight{
+    color: red;
+    margin-left: 10px;
+}
+
+.Cdes{
+    font-size: 1.3rem;
+    margin-left: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Cmore{
+    display: flex;
+    align-items: center;
+}
+.Cmore:hover{
+    cursor: pointer;
+}

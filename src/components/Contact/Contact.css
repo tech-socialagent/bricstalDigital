@@ -1,0 +1,84 @@
+.ContactWrap {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.834);
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 65px;
+    max-width: 664px
+}
+
+.row02 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.r2Text {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #93f9f8;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+}
+
+label {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+}
+
+input {
+    border: none;
+    border-radius: 20px;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+    height: 40px;
+    padding-left: 10px;
+}
+input:hover{
+    background-color: aqua;
+}
+input:focus {
+    border: 2px solid aqua;
+    outline: none;
+    height: 38px;
+}
+button{
+    margin-top: 40px;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #11171d;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color:  #11171d;
+    border: none;
+}

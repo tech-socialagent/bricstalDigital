@@ -1,0 +1,33 @@
+.closeICon{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    font-size: 30px;
+}
+.closeICon:hover{
+    cursor: pointer;
+    color: #37ACEC;
+}
+.SlideLists{
+    padding: 0px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.link{ 
+    margin-top: 20px;
+    padding: 16px 64px;
+    color: #010606;
+    font-size: 1.5rem;
+    text-decoration:none;
+}
+.link:hover{
+    cursor: pointer;
+    color: #37ACEC;
+    font-size: 30px;
+    padding: 10px 30px;
+}
